@@ -1,11 +1,12 @@
 /* TODO: Add typography */
 .lesson {
     background-color: #fffacd;
+    font-weight: bold;
 }
 
 /* Fact 1 */
 #fact-1 {
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 /* TODO: Fact 2 */
@@ -15,5 +16,5 @@
 
 /* TODO: Fact 3 */
 #fact-3 {
-  
+
 }

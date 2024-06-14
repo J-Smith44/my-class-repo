@@ -18,9 +18,10 @@ header {
   color: #fff;
 }
 
-/* 
-What happens when we set the display property to flex? 
-TODO: Write your answer here 
+/*
+What happens when we set the display property to flex?
+TODO: Write your answer here
+This allows it to build the content along the primary axis.
 */
 nav {
   display: flex;
@@ -34,9 +35,10 @@ nav a {
   text-align: center;
 }
 
-/* 
-What is the flex-wrap property? 
-TODO: Write your answer here 
+/*
+What is the flex-wrap property?
+TODO: Write your answer here
+it allows the content to wrap around and create a new row or column.
 */
 main {
   display: flex;
@@ -58,9 +60,11 @@ footer {
   color: #fff;
 }
 
-/* 
-What does the justify-content property do? 
-TODO: Write your answer here 
+/*
+What does the justify-content property do?
+TODO: Write your answer here
+
+defines the alignment along the main axis.
 */
 .products {
   flex: 4;
@@ -71,10 +75,12 @@ TODO: Write your answer here
   justify-content: center;
 }
 
-/* 
+/*
 What is the flex property a shorthand property for?
-What is it doing here? 
-TODO: Write your answer here 
+What is it doing here?
+short for flex grow, shrink, basis.
+flex-basis is defining the size of the default element before determine the reminder
+TODO: Write your answer here
 */
 .card {
   border-style: solid;
@@ -96,10 +102,11 @@ TODO: Write your answer here
   width: 100%;
 }
 
-/* 
+/*
 What does the flex-direction property define?
-What is it doing here? 
-TODO: Write your answer here 
+What is it doing here?
+TODO: Write your answer here
+changes the primary axis to column at size 768
 */
 @media screen and (max-width: 768px) {
   main,
